@@ -126,7 +126,7 @@ header.masthead {
 }
 
 .bg-mid {
-    background-color: #717B6F !important;
+    background-color: #465343 !important;
 }
 
 .section {
@@ -142,14 +142,19 @@ header.masthead {
     font-weight: 600;
 }
 
+@media (min-width: 992px) {
+#about{
+    height: 100vh;
+}
+}
+
 @media (min-width: 540px) {
 #profilepic {
     margin-top: 5rem;
 }
-}
 
 #portfolioCarousel {
-    height: 40rem;
+    height: 30rem;
 }
 
 #gallery {
@@ -158,8 +163,27 @@ header.masthead {
 }
 
 .carousel-caption {
-    background-color: #314d45 !important;
     margin-top: 5rem;
+}
+}
+
+@media (max-width: 540px) {
+    #portfolioCarousel {
+        height: 30rem;
+    }
+    
+    #gallery {
+        max-height: 30rem;
+        padding-bottom: 15rem;
+    }
+    
+    .carousel-caption {
+        margin-top: 5rem;
+    }
+}
+
+#portfolio {
+    height: 100vh;
 }
 
 a.portfolio-box {
@@ -168,7 +192,7 @@ a.portfolio-box {
     text-decoration: none;
 }
 
-
-a:hover {
+a {
     text-decoration: none;
+    font-weight: 600;
 }
