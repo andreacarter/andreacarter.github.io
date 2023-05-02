@@ -5,7 +5,6 @@ body {
 }
 
 #mainNav {
-    min-height: 65px;
     background-color: #fff;
     text-transform: uppercase;
     color: #51624E;
@@ -24,8 +23,8 @@ body {
 }
 
 .navbar-brand, .nav-item {
-    font-size: 1.3rem;
-    text-shadow: 0 0 1px #18352c;
+    font-size: 1.2rem;
+    color: #51624E;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -44,7 +43,7 @@ body {
     #mainNav .nav-link {
         -webkit-transition: none;
         transition: none;
-        padding: 2rem 1.5rem;
+        padding: 2rem 1rem;
     }
 
     #mainNav .nav-link:hover {
@@ -107,6 +106,10 @@ header.masthead {
 #learnmore {
     padding-right: 10rem;
 }
+
+#about, #portfolio {
+    height: 100vh;
+}
 }
 
 header.masthead {
@@ -123,6 +126,7 @@ header.masthead {
 
 .bg-primary, .bg-dark, .bg-mid {
     padding: 3rem;    
+    padding-bottom: 3rem;
 }
 
 .bg-primary {
@@ -137,11 +141,7 @@ header.masthead {
     background-color: #465343 !important;
 }
 
-.section {
-    height: 100vh;
-    background-position: center center;
-    background-size: cover;
-}
+
 
 .section-heading {
     text-shadow: 1px 1px 1px #000;
@@ -150,11 +150,6 @@ header.masthead {
     font-weight: 600;
 }
 
-@media (min-width: 992px) {
-#about{
-    height: 100vh;
-}
-}
 
 @media (min-width: 540px) {
 #profilepic {
@@ -203,9 +198,6 @@ header.masthead {
     }
 }
 
-#portfolio {
-    height: 100vh;
-}
 
 a.portfolio-box {
     color: #fff;
