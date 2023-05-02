@@ -168,6 +168,19 @@ header.masthead {
 }
 
 @media (max-width: 540px) {
+    #profilepic {
+        margin-top: 5rem;
+    }
+
+    #biotext {
+        text-align: justify;
+        font-size: 95%;
+    }
+    .card-deck {
+        width: auto;
+        font-size: 90%;
+    }
+
     #portfolioCarousel {
         height: 30rem;
     }
@@ -188,7 +201,6 @@ header.masthead {
 
 a.portfolio-box {
     color: #fff;
-    text-shadow: 0 0 1px #000;
     text-decoration: none;
 }
 
