@@ -94,6 +94,7 @@ body {
     display: none;
 }
 
+@media (min-width: 1440px) {
 header.masthead {
     padding-top: 10rem;
     padding-left: 20%;
@@ -103,15 +104,22 @@ header.masthead {
     background-size: cover;
 }
 
-.masthead h1 {
-    font-size: 3rem;
-    text-shadow: 1px 1px 3px #000;
+#learnmore {
+    padding-right: 10rem;
+}
 }
 
-.masthead h3 {
-    font-size: 2rem;
-    padding-left: 1%;
-}
+header.masthead {
+        padding-left: 20%;
+        height: 100vh;
+        background-color: #D1E1CE;
+        background-position: center center;
+        background-size: cover;
+    }
+
+#learnmore {
+        padding-right: 10rem;
+    }
 
 .bg-primary, .bg-dark, .bg-mid {
     padding: 3rem;    
