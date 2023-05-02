@@ -8,19 +8,19 @@ body {
     min-height: 65px;
     background-color: #fff;
     text-transform: uppercase;
-    color: #33705e;
+    color: #51624E;
 }
 
 #mainNav .navbar-toggler {
     padding: 0.75rem;
-    color: #33705e;
+    color: #51624E;
     border: 1px solid #33705e;
 }
 
 #mainNav .navbar-brand {
     font-weight: 700;
     padding: .9rem 0;
-    color: #33705e;
+    color: #51624E;
 }
 
 .navbar-brand, .nav-item {
@@ -29,7 +29,7 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-    color: #11241e;
+    color: #51624E;
     outline: none;
     background-color: transparent;
 }
@@ -37,7 +37,7 @@ body {
 @media (min-width: 540px) {
     #mainNav {
         border-color: transparent;
-        background-color: transparent;
+        background-color: #fff;
         transition: background-color 0.3s ease-in-out;
     }
 
@@ -45,15 +45,14 @@ body {
         -webkit-transition: none;
         transition: none;
         padding: 2rem 1.5rem;
-        color: rgba(255, 255, 255, 0.5);
     }
 
     #mainNav .nav-link:hover {
-        color: #33705e;
+        color: #51624E;
     }
 
     #mainNav .nav-link:active {
-        color: #33705e;
+        color: #51624E;
     }
 
     #mainNav.navbar-shrink {
@@ -61,27 +60,27 @@ body {
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-        color: #33705e;
+        color: #51624E;
     }
 
     #mainNav.navbar-shrink .nav-link {
-        color: #33705e;
+        color: #51624E;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
     }
 
     #mainNav.navbar-shrink .nav-link:hover {
-        color: #33705e;
+        color: #51624E;
     }
 
     #mainNav.navbar-shrink .nav-link:active {
-        color: #33705e;
+        color: #51624E;
     }
 
     #mainNav.navbar-shrink .nav-link.active {
-        color: #33705e;
+        color: #51624E;
         outline: none;
-        border-bottom: 0.25rem solid #33705e;
+        border-bottom: 0.25rem solid #51624E;
     }
 }
 
@@ -99,11 +98,9 @@ header.masthead {
     padding-top: 10rem;
     padding-left: 20%;
     height: 100vh;
-    background-image: url("../images/background.jpg");
+    background-color: #D1E1CE;
     background-position: center center;
     background-size: cover;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 3px #000;
 }
 
 .masthead h1 {
@@ -116,58 +113,33 @@ header.masthead {
     padding-left: 1%;
 }
 
-@media (max-width: 540px) {
-    header.masthead {
-        padding-left: 1rem;
-    }
-    .masthead h3 {
-        font-size: 2rem;
-        color: #fff;
-        text-shadow: 5px 3px 6px #000;
-    }
-}
-
-.btn-primary {
-    padding: 1rem 2rem;
-    font-weight: 700;
-    border: none;
-    border-radius: 300px;
-    background-color: #33705e;
-    border-color: #33705e;
-    text-shadow: 5px 3px 6px #000;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    color: #33705e;
-    background-color: #fff !important;
-}
-
-.btn-primary:active,
-.btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(145, 195, 214, 0.5) !important;
-}
-
 .bg-primary, .bg-dark, .bg-mid {
     padding: 3rem;    
 }
 
 .bg-primary {
-    background-color: #e7d78e !important;
+    background-color: #E9EFE7 !important;
 }
 
 .bg-dark {
-    background-color: #33705e !important;
+    background-color: #6b8a64 !important;
 }
 
 .bg-mid {
-    background-color: #314d45 !important;
+    background-color: #717B6F !important;
+}
+
+.section {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
 }
 
 .section-heading {
     text-shadow: 1px 1px 1px #000;
     margin-top: 5rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
 }
 
 @media (min-width: 540px) {
