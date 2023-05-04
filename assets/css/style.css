@@ -194,6 +194,10 @@ header.masthead {
     .col-md {
         padding: 2rem;
     }
-
 } 
 
+@media (max-width: 540px) {
+    #gallery {
+        max-width: 350px;
+    }
+}
