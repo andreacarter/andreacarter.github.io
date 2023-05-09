@@ -153,7 +153,7 @@ header.masthead {
     } 
 
     #learnmore {
-        padding-top: 20rem;
+        padding-top: 30rem;
         padding-right: 10rem;
         }
     
@@ -195,4 +195,5 @@ header.masthead {
     #projects .col-md {
         background-color: #fff;
     }
+
 }
