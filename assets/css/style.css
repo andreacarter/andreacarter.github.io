@@ -43,12 +43,6 @@ header.masthead {
         height: 100vh;
     }
 
-#learnmore {
-    padding-top: 30rem;
-    padding-right: 10rem;
-    }
-
-
 .section-heading {
     text-shadow: 0px 0px 1px #000;
     margin-top: 5rem;
@@ -77,9 +71,13 @@ header.masthead {
     background-color: #33705e;
 }
 
-.col-auto,
-.col-md {
-    padding: 1rem;
+#portfolio .project-text {
+    padding: 3rem;
+    font-size: 90%;
+  }
+
+#projects {
+    max-width: 800px;
 }
 
 .btn-light {
@@ -115,7 +113,7 @@ header.masthead {
 }
 
 #learnmore {
-    padding-top: 30rem;
+    padding-top: 20rem;
     padding-right: 10rem;
 }
 
@@ -124,7 +122,7 @@ header.masthead {
 }
 
 #aboutsection {
-    padding-top: 10rem;
+    padding-top: 7%;
 }
 
 #portfolio .section-heading {
@@ -135,7 +133,6 @@ header.masthead {
     height: 100vh;
 }
 }
-
 
 @media (max-width: 1040px) {
     body {
@@ -155,9 +152,14 @@ header.masthead {
         height: 100vh;
     } 
 
+    #learnmore {
+        padding-top: 20rem;
+        padding-right: 10rem;
+        }
+    
     #profilepic {
         scale: .75;
-        margin-top: 1rem;        
+        margin-top: 2rem;        
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -172,11 +174,11 @@ header.masthead {
         background-color: #D1E1CE;
     }
 
-    #portfolio .section-heading {
-        padding-top: 2rem;
+    .media-body {
+        padding-top: 0rem;
     }
 
-    #about, #portfolio {
+    #portfolio {
         height: 100vh;
     } 
 
@@ -187,17 +189,10 @@ header.masthead {
     button.nav-link {
         padding: .5rem;
     }
-
-    .col-auto{
-        padding: 1.5rem;
-    }
-    .col-md {
-        padding: 2rem;
-    }
 } 
 
 @media (max-width: 540px) {
-    #gallery {
-        max-width: 350px;
+    #projects .col-md {
+        background-color: #fff;
     }
 }
