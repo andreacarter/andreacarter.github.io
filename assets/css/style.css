@@ -50,27 +50,6 @@ header.masthead {
     font-weight: 600;
 }
 
-#portfoliobox {
-    padding: 3rem;
-    padding: 1rem;
-    background-color: #fff;
-}
-
-.nav-tabs {
-    background-color: #fff;
-}
-
-#nav-tab .nav-link {
-    border: 0px;
-    background-color: #fff;
-}
-
-#nav-tab .nav-link.active  {
-    border: 0px;
-    color: #fff;
-    background-color: #33705e;
-}
-
 #portfolio .project-text {
     padding: 3rem;
     font-size: 90%;
@@ -136,7 +115,7 @@ header.masthead {
 
 @media (max-width: 1040px) {
     body {
-        background-image: url("../images/mobilebg.png");
+        background-image: url("../images/mobilebg2.png");
         background-position: top;
         background-size: auto 100%;
         background-repeat: no-repeat;
@@ -178,22 +157,30 @@ header.masthead {
         padding-top: 0rem;
     }
 
-    #portfolio {
+    #about, #portfolio {
         height: 100vh;
     } 
 
-    #portfoliobox {
-        padding: 0;
-    }
-
-    button.nav-link {
-        padding: .5rem;
+    #portfolio .section-heading {
+        padding-top: 2rem;
     }
 } 
 
 @media (max-width: 540px) {
     #projects .col-md {
         background-color: #fff;
+    }
+
+    .btn-light {
+        background-color: #D1E1CE;
+        border: #D1E1CE;
+        margin-bottom: 1rem;
+    }
+    
+    .btn-light:hover {
+        background-color: #343f32;
+        border: #343f32;
+        color: #D1E1CE;
     }
 
 }
